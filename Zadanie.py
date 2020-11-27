@@ -12,8 +12,12 @@
 
 stringinput1 = input()
 
-znaki = {'a':'*', 'e': '*', 'o': '*', 'y': '*', 'i': '*', 'u': '*'}
+znaki = {'a':'(a)', 'e': '(e)', 'o': '(o)', 'y': '(y)', 'i': '(i)', 'u': '(u)', 'A': '(A)', 'E': '(E)', 
+         'O': '(O)', 'U':'(U)', 'Y':'(Y)', 'ę':'(ę)', 'ą':'(ą)', 'ó':'(ó)', }
 
 res = ''.join(idx if idx not in znaki else znaki[idx] for idx in stringinput1) 
 
 print(str(res))
+
+
+# program należy resetować po każdym użyciu.
