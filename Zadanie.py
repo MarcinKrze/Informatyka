@@ -12,7 +12,7 @@
 
 stringinput1 = input()
 
-znaki = {'a':'', 'e': '', 'o': '', 'y': '', 'i': '', 'u': ''}
+znaki = {'a':'*', 'e': '*', 'o': '*', 'y': '*', 'i': '*', 'u': '*'}
 
 res = ''.join(idx if idx not in znaki else znaki[idx] for idx in stringinput1) 
 
